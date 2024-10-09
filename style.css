@@ -36,6 +36,7 @@ a:hover{
 }
 img{
     width: 100%;
+    display: block;
 }
 
 /*---------- Utility flex ----------*/
@@ -54,7 +55,12 @@ img{
 .j-center{
     justify-content: center;
 }
-
+.t-allign-center{
+    text-align: center;
+}
+.t-allign-left{
+    text-align: left;
+}
 .j-end{
     justify-content: end;
 }
@@ -78,7 +84,16 @@ img{
 .f-wrap{
     flex-wrap: wrap;
 }
-
+.relative{
+    position: relative;
+    top: 75px;
+}
+/* div .relative img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+} */
 /*---------- Container ---------*/
 .container{
     max-width: 1200px;
@@ -94,7 +109,21 @@ img{
 
 
 /*--------------- Index ---------------*/
-
+.w30{
+    max-width: 30%;
+    width: 30%;
+}
+.w70{
+    max-width: 70%;
+    width: 70%;
+}
+.p20-top{
+    padding-top: 20px;
+}
+.p40-top-bottom{
+    padding-bottom: 45px;
+    padding-top: 35px;
+}
 /*---------- Header ----------*/
 
 header{
@@ -105,6 +134,7 @@ header{
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    z-index: 1000;
 }
 header img{
     width: 150px;
@@ -132,5 +162,37 @@ header ul{
     padding: 15px;
 }
 /*---------- Main ----------*/
+h1{
+    font-size: 78px;
+}
+.bg-jumbo{
+    width: 100%;
+    background-color: rgb(181, 209, 232);
+}
+.jumbotron{
+    
+}
 
 /*---------- Footer ----------*/
+
+
+/* ICONE */
+
+.freccia{
+    font-size: 30px;
+    
+}
+
+
+.divisione-testo-scritto{
+    max-width: 100%;
+    max-height: 30%;
+    flex-direction: column;
+}
+.divisione-testo{
+    max-width: 100%;
+    height: 89px;
+    max-height: 95px;
+    display: flex;
+    align-items: flex-end;
+}
