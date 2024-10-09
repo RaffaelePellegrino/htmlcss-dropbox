@@ -71,7 +71,9 @@ img{
 .a-center{
     align-items: center;
 }
-
+.a-flex-start{
+    align-items: flex-start;
+}
 .d-column{
     flex-direction: column;
 }
@@ -108,7 +110,11 @@ img{
     max-width: 1000px;
 }
 
-
+.container-plan{
+    max-width: 80%;
+    width: 80%;
+    padding: 10px;
+}
 
 
 /*--------------- Index ---------------*/
@@ -182,6 +188,10 @@ h1{
 #plans{
     margin-top: 100px;
 }
+.piano{
+    width: 25%;
+    max-width: 25%;
+}
 /*---------- Footer ----------*/
 
 
@@ -204,4 +214,8 @@ h1{
     max-height: 89px;
     display: flex;
     align-items: center;
+}
+
+.w100{
+    width: 100%;
 }
