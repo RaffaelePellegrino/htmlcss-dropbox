@@ -55,6 +55,9 @@ img{
 .j-center{
     justify-content: center;
 }
+.i-center{
+    align-items: center;
+}
 .t-allign-center{
     text-align: center;
 }
@@ -124,6 +127,12 @@ img{
     padding-bottom: 45px;
     padding-top: 35px;
 }
+.p-20-right{
+    padding-right: 20px;    
+}
+.p-10-right{
+    padding-right: 10px;
+}
 /*---------- Header ----------*/
 
 header{
@@ -169,10 +178,10 @@ h1{
     width: 100%;
     background-color: rgb(181, 209, 232);
 }
-.jumbotron{
-    
+/* Plans */
+#plans{
+    margin-top: 100px;
 }
-
 /*---------- Footer ----------*/
 
 
@@ -192,7 +201,7 @@ h1{
 .divisione-testo{
     max-width: 100%;
     height: 89px;
-    max-height: 95px;
+    max-height: 89px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
