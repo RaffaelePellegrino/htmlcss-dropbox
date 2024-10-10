@@ -14,7 +14,7 @@
 
 /*---------- Debug ----------*/
 .debug{
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 /*---------- Text formatting ----------*/
@@ -26,13 +26,14 @@ body{
 }
 
 a{
-    text-decoration: none;
     color:inherit;
     font: inherit;
+    text-decoration: none;
 }
 
 a:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 img{
     width: 100%;
@@ -111,10 +112,12 @@ img{
 }
 
 .container-plan{
-    padding: 10px;
+    padding: 20px;
 }
 
-
+.container-plan-header{
+    padding: 10px;
+}
 .piano {
     height: 100%;
 }
@@ -140,6 +143,12 @@ img{
 .p-10-right{
     padding-right: 10px;
 }
+.margin-40top{
+    margin-top: 40px;
+}
+.p-20global{
+    padding: 20px;
+}
 /*---------- Header ----------*/
 
 header{
@@ -152,10 +161,7 @@ header{
     align-items: center;
     z-index: 1000;
 }
-header img{
-    width: 150px;
-    height: 30px;
-}
+
 header li{
     list-style: none;
     padding: 10px;
@@ -163,6 +169,12 @@ header li{
 header ul{
     padding: 10px;
     display: flex;
+}
+header nav a{
+    padding: 30px 12px;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 .nav{
     display: flex;
@@ -175,7 +187,18 @@ header ul{
 .fake-button{
     background-color: blue;
     color: white;
-    padding: 15px;
+    padding: 6px 12px;
+    text-decoration: none; 
+}
+#underline-none{
+    text-decoration: none;
+}
+
+.fake-button-lungo{
+    background-color: blue;
+    color: white;
+    padding: 10px 36px;
+    text-decoration: none; 
 }
 /*---------- Main ----------*/
 h1{
@@ -190,8 +213,14 @@ h1{
     margin-top: 100px;
 }
 .piano{
-    width: 25%;
-    max-width: 25%;
+    width: 30%;
+    max-width: 30%;
+    
+    ;
+}
+.border-bottom{
+    border: 1px solid black;
+    width: 100%;
 }
 /*---------- Footer ----------*/
 
@@ -219,4 +248,8 @@ h1{
 
 .w100{
     width: 100%;
+}
+.speciale{
+    color: blue;
+    text-decoration:underline ;
 }
